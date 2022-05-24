@@ -1,0 +1,78 @@
+.RCB {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+}
+
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+
+.DC {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+
+.match-details-container {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.matches-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 100vw;
+  height: 100%;
+}
+.banner-image {
+  max-height: 55vh;
+  width: 100%;
+}
+
+.heading-latest-matches {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-latest-matches {
+    font-size: 18px;
+  }
+}
+
+.recent-matches-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  list-style-type: none;
+  margin-top: 20px;
+  padding-left: 0;
+}
